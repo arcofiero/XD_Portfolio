@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <aside>
+        <figure>
+            <div id="avatar">
+               
+            </div>
+            <figcaption>Archit Raj</figcaption>
+        </figure>
+        <img src="‎⁨images/menu.svg">
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="aboutme.html">ABOUT ME</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+
+            </ul>
+
+
+        </nav>
+    </aside>
+    <main>
+            <h1> Contact </h1>
+            <p>Hi there!</p>
+            <p> Please feel free to contact me if you have any questions. </p>
+            <p>Trust me, your calls will never be kept on long wait,<br> and your emails would never be unanswered!</p>
+           
+            <a href="tel:+1(515)-715-3899" class="cta"> Call me! </a>
+            <a href="mailto: araj2210@gmail.com" class="cta">Email me!</a>
+
+    </main>
+
+    <script>
+
+    (function() {
+        var menu = document.querySelector('ul'),
+            menulink = document.querySelector('img');
+    
+        menulink.addEventListener('click',function(e) {
+            menu.classList.toggle('active');
+            e.preventDefault();
+        });
+    })();
+    
+    </script>
+</body>
+</html>
